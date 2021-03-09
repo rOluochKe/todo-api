@@ -1,24 +1,58 @@
-# README
+# Todo API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- RUBY on RAILS
+- SQlite
+- api
 
-Things you may want to cover:
+## Front End: React JS
+> View in this [REPO](https://github.com/rOluochKe/todo-ui)
 
-* Ruby version
+## Usage
 
-* System dependencies
+> Clone the repository to your local machine
 
-* Configuration
+```
+$ git clone git@github.com:rOluochKe/todo-api.git
+```
 
-* Database creation
+> cd into the directory
 
-* Database initialization
+```
+$ cd todo-api
+```
 
-* How to run the test suite
+> Then install the needed gems (while skipping any gems needed only in production):
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ bundle install
+```
 
-* Deployment instructions
+> Create database, run 
 
-* ...
+```
+$ rails db:create
+```
+
+> Next, migrate the database:
+
+```
+$ rails db:migrate
+```
+
+> Finally, you'll be ready to run the app api in a local server:
+
+```
+$ rails s -p 3001
+```
+
+## Designed and developed by
+
+[Raymond Oluoch](https://github.com/rOluochKe)
+
+## Contributing
+
+1. Fork it (git clone git@github.com:rOluochKe/todo-api.git/fork)
+2. Create your feature branch (git checkout -b feature/[choose-a-name])
+3. Commit your changes (git commit -am 'What this commit will fix/add')
+4. Push to the branch (git push origin feature/[chosen name])
+5. Create a new Pull Request
