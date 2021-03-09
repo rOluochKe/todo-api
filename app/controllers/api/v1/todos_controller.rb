@@ -46,6 +46,6 @@ class Api::V1::TodosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def todo_params
-      params.require(:todo).permit(:task)
+      params.require(:todo).permit(:task, :body)
     end
 end
